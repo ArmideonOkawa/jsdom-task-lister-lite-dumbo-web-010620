@@ -10,7 +10,7 @@ const errand = {
 
   errandItems.push(errand);
  
-  const list = document.getElementById('list');
+  const list = document.getElementById('tasks');
   list.insertAdjacentHTML('beforeend', `
     <li class="errand-item" data-key="${errand.id}">
       <input id="${errand.id}" type="checkbox"/>
