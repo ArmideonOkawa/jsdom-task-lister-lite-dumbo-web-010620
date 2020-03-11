@@ -1,18 +1,14 @@
-class toDoList {
+class errandList {
     constructor(){
-    this.toDos = [];
+    this.errands = [];
     }
 
-    createNewTodo(description){
-        const newToDo = new toDo(description);
-        this.toDos.push(newToDo);
+    createNewErrand(description){
+        const newErrand = new errand(description);
+        this.errands.push(newErrand);
     }
     
-    renderToDos(){
-        return this.toDos.map((todo)=> toDo.render()).join("");
-    }
-
-    deleteTodo(description) {
-        this.toDos = this.toDos.filter((todo) => todo.description !== description);
+    rendererrands(){
+        return this.errands.map((errand)=> errand.render()).join("");
     }
 }

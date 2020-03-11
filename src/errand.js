@@ -1,4 +1,4 @@
-class toDo {
+class errand {
     constructor(description){
         this.description = description;
     }
@@ -7,7 +7,7 @@ class toDo {
         return `
         <li>
         ${this.description}
-        <button data-description=${this.description}"</button>
+        <button data-description=${this.description}">X</button>
         </li>
         `
     }

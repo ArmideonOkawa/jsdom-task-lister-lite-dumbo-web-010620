@@ -1,27 +1,27 @@
 document.addEventListener("DOMContentLoaded", () => {
  // 1. Elements we want listening for events
-const toDoList = new toDoList();
+const errandList = new errandList();
 
 //access elementById for each form component
-const newToDo = document.getElementById('create-todo-form');
-const newDescription = document.getElementById('todo-description');
+const newErrand = document.getElementById('create-task-form');
+const newDescription = document.getElementById('task-description');
      
-const toDoUl = document.getElementById("todos");
+const errandUl = document.getElementById("errands");
 
- newToDoForm.addEventListener("submit, createnewToDo");
+newErrandForm.addEventListener("submit, createnewerrand");
 });
 
-const createNewToDo = event => {
+const createNewErrand = event => {
     event.preventDefault();
 
-     const newDescription = document.getElementById("new-todo-description");
-     const newToDo = document.createElement("li");
-     newToDo.innerText = newDescription.value;
+     const newDescription = document.getElementById("new-task-description");
+     const newErrand = document.createElement("li");
+     newErrand.innerText = newDescription.value;
 
-     appendNewToDo(newToDo);
+     appendNewErrand(newerrand);
      event.target.reset();
 };
 
-const appendnewToDo = todo => {
-    document.getElementById("todos").appendChild(todo);
+const appendNewErrand = errand => {
+    document.getElementById("errands").appendChild(errand);
 };
