@@ -28,6 +28,7 @@ button {
 }
 
 #list {
+  list-style: none;
   margin: 10px;
   border: 1px solid #333;
   background: rgba(255, 255, 255, 0.75);
@@ -35,3 +36,10 @@ button {
   border-radius: 5px;
   box-shadow: 2px 5px 5px #333;
 }
+
+#tasks {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+
